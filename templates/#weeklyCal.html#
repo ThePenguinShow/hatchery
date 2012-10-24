@@ -1,0 +1,31 @@
+{% extends "index.html" %}
+
+{% block title %}Show off my variables!{% endblock %}
+
+{% block body %}
+<h1>This week's calendar</h1>
+
+<table>
+  <thead>
+    <th>{{ day1 }}</th>
+    <th>{{ day2 }}</th>
+    <th>{{ day3 }}</th>
+    <th>{{ day4 }}</th>
+    <th>{{ day5 }}</th>
+    <th>{{ day6 }}</th>
+    <th>{{ day7 }}</th>
+    </thead>
+  <tbody>
+    <tr>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      </tr>
+    </tbody>
+</table>
+
+{% endblock body %}
