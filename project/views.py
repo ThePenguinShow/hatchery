@@ -5,6 +5,7 @@ def index2(request):
             'var1': 'This is var1',
             'var2': 'This is var2',
             'list_var': ['a','b', 'c'],
+            'list_var2': ['d','e','f'],
 })
 
 def weeklyCal(request):
